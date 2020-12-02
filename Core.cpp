@@ -18,11 +18,8 @@ int main() {
 
     srand(time(NULL));
 
-    vector <int> y = { 3, 4, 5, 2, 1, 4 };
-
-
-    Space mercury = Space(20, 10, 3, 5);
-    mercury.run(50, 1000, false, true);
+    Space playground = Space(20, 10, 3, 5);
+    playground.run(50, 1000, false, true);
     
     cout << endl;
     return 0;
